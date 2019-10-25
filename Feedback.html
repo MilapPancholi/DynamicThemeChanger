@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="scripts/styleswitcher.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style1.css" title="style1">
+
+		<link rel="alternate stylesheet" type="text/css" href="styles/style2.css" title="style2" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/style2.css" title="style2" />
+        <link rel="alternate stylesheet" type="text/css" href="styles/style3.css" title="style3" />
+		<title>
+			Welcome to AToZ
+		</title>
+		<h1>
+			Welcome to AToZ
+		</h1>
+	<head>
+	<body>
+		<div class="navMain">
+			<nav>
+				<ul>
+	  				<li><a href="Home.html">Home</a></li>
+	  				<li><a href="Wallpaper.html">Wallpapers</a></li>
+					<li><a href="Ringtone.html">Ringtones</a></li>
+	  				<li><a href="Feedback.html" class="active">Feedback</a></li>
+				</ul>
+			</nav>
+			<main>
+				<div class="mainContent">
+					<h2>Feedback</h2>
+					<div class="form" >
+						<form action="#" class="inputForm"method="post">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" name="Name" id="name" placeholder="Enter Name.." required>
+							</div>
+							
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input type="email" name="Email" id="email" placeholder="Enter Email Address.." required>
+							</div>
+
+							<div class="form-group">
+								<label for="category">Category</label>
+							    <select id="category" name="category">
+							      <option value="WebSiteContent">Web Site Content</option>
+							      <option value="DesignSuggestion">Design Suggestion</option>
+							      <option value="AnyBugReporting">Any Bug Reporting</option>
+							    </select>
+							</div>
+							<div class="form-group">
+							    <label for="message">Message</label>
+								<textarea rows="5" cols="50" name="message" placeholder="Enter Message Here.." required></textarea>
+							</div>
+
+							<input type="submit" value="Save">
+
+						</form>
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<select id="theme" class="theme" name="category">
+				<option value="style1">Style 1</option>
+				<option value="style2">Style 2</option>
+				<option value="style3">Style 3</option>
+		    </select>
+		</footer>
+	</body>
+</html>
